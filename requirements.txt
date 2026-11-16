@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+spacy
+torch
+torchvision
+transformers
+sentence-transformers
+google-generativeai
+python-dotenv
+streamlit
+pypdf
+chromadb

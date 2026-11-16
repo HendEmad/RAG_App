@@ -11,3 +11,50 @@ context [query + retrieved text] --> llm model --> generate response
 - vector database to store documnets embeddings
 - context-aware retrieval for user question/query
 - prompt-based response generation
+
+## How to use the repo?
+1- Clone repo on your machine
+2- Copy content of `.env.example` to yout own `.env` file: 
+```cp .env.example .env```
+
+## Issues
+[Task] create pdf_utils file
+- Description:
+    1) extract text from odf
+    2) chunking
+
+[Task] Create embedding.py file
+- Description:
+    1) load embedding model
+    2) Text --> vectors
+
+[Task] create vector database file
+Description:
+    - Create client
+    - create collection
+    - add docs embedding vectors to the database
+Database [chromadb]
+
+[Task] create llm file
+- Use Gemmini API
+
+[Task] create best prompt
+- use prompt engineering techniques
+
+[Task] Create App
+- Use streamlit
+
+## Project structure
+Modules/
+    __initi__.py
+    pdf_utils.py
+    embedding.py
+    llm.py
+    vectordb.py
+
+Prompts/
+    prompt.txt
+
+.env
+README.md
+requirements.txt
