@@ -20,7 +20,7 @@ context [query + retrieved text] --> llm model --> generate response
 ## Issues
 [Task] create pdf_utils file
 - Description:
-    1) extract text from odf
+    1) extract text from pdf
     2) chunking
 
 [Task] Create embedding.py file
